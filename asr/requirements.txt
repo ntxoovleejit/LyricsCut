@@ -1,0 +1,4 @@
+faster-whisper>=1.2,<2
+# faster-whisper 1.2.1 passes metadata_errors to av.open; PyAV 19 removed it.
+av>=11,<19
+Flask>=3,<4
